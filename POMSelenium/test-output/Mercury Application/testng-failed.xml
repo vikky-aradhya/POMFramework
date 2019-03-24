@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Mercury Application]">
+  <parameter name="scenario" value="Login"/>
+  <parameter name="sheet" value="sheet1"/>
+  <listeners>
+    <listener class-name="listners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="mercury Test(failed)">
+    <classes>
+      <class name="stepDefinition.LoginTest">
+        <methods>
+          <include name="loginUser"/>
+        </methods>
+      </class> <!-- stepDefinition.LoginTest -->
+      <class name="stepDefinition.RegisterTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="enterUserDetails"/>
+        </methods>
+      </class> <!-- stepDefinition.RegisterTest -->
+    </classes>
+  </test> <!-- mercury Test(failed) -->
+</suite> <!-- Failed suite [Mercury Application] -->

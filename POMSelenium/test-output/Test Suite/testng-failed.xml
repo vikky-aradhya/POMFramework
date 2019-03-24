@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Suite]">
+  <test thread-count="5" name="hub spot Test(failed)">
+    <classes>
+      <class name="stepDefinition.LoginTest">
+        <methods>
+          <include name="loginToHub"/>
+          <include name="close_browser"/>
+          <include name="verifyLoginPageTitle"/>
+          <include name="init_driver"/>
+        </methods>
+      </class> <!-- stepDefinition.LoginTest -->
+    </classes>
+  </test> <!-- hub spot Test(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->
