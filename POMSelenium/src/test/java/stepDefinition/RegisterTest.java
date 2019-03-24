@@ -39,6 +39,7 @@ public class RegisterTest extends BasePage {
 		log.info("title matched!!!");
 	}
 	
+	
 	@Test(priority = 1)
 	public void registerUser() {
 		registerPage.goToRegisterPage();

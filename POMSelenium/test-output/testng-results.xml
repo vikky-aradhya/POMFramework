@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Mercury Application" duration-ms="21651" started-at="2019-03-23T07:14:38Z" finished-at="2019-03-23T07:15:00Z">
+  <suite name="Mercury Application" duration-ms="131934" started-at="2019-03-24T09:03:09Z" finished-at="2019-03-24T09:05:21Z">
     <groups>
     </groups>
-    <test name="mercury Test" duration-ms="21651" started-at="2019-03-23T07:14:38Z" finished-at="2019-03-23T07:15:00Z">
+    <test name="mercury Test" duration-ms="131934" started-at="2019-03-24T09:03:09Z" finished-at="2019-03-24T09:05:21Z">
       <class name="stepDefinition.RegisterTest">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.RegisterTest@77a57272]" name="setUp" is-config="true" duration-ms="8464" started-at="2019-03-23T07:14:30Z" finished-at="2019-03-23T07:14:38Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:stepDefinition.RegisterTest@77a57272]" name="setUp" is-config="true" duration-ms="102124" started-at="2019-03-24T09:01:26Z" finished-at="2019-03-24T09:03:09Z">
           <params>
             <param index="0">
               <value>
@@ -23,41 +23,41 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyHomePageTitle()[pri:0, instance:stepDefinition.RegisterTest@77a57272]" name="verifyHomePageTitle" duration-ms="21" started-at="2019-03-23T07:14:38Z" finished-at="2019-03-23T07:14:38Z">
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:0, instance:stepDefinition.RegisterTest@77a57272]" name="verifyHomePageTitle" duration-ms="16" started-at="2019-03-24T09:03:09Z" finished-at="2019-03-24T09:03:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageTitle -->
-        <test-method status="PASS" signature="registerUser()[pri:1, instance:stepDefinition.RegisterTest@77a57272]" name="registerUser" duration-ms="897" started-at="2019-03-23T07:14:39Z" finished-at="2019-03-23T07:14:39Z">
+        <test-method status="PASS" signature="registerUser()[pri:1, instance:stepDefinition.RegisterTest@77a57272]" name="registerUser" duration-ms="904" started-at="2019-03-24T09:03:09Z" finished-at="2019-03-24T09:03:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerUser -->
-        <test-method status="PASS" signature="verifyRegisterPageTitle()[pri:2, instance:stepDefinition.RegisterTest@77a57272]" name="verifyRegisterPageTitle" duration-ms="8" started-at="2019-03-23T07:14:40Z" finished-at="2019-03-23T07:14:40Z">
+        <test-method status="PASS" signature="verifyRegisterPageTitle()[pri:2, instance:stepDefinition.RegisterTest@77a57272]" name="verifyRegisterPageTitle" duration-ms="0" started-at="2019-03-24T09:03:10Z" finished-at="2019-03-24T09:03:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterPageTitle -->
-        <test-method status="PASS" signature="enterUserDetails()[pri:3, instance:stepDefinition.RegisterTest@77a57272]" name="enterUserDetails" duration-ms="12731" started-at="2019-03-23T07:14:40Z" finished-at="2019-03-23T07:14:53Z">
+        <test-method status="PASS" signature="enterUserDetails()[pri:3, instance:stepDefinition.RegisterTest@77a57272]" name="enterUserDetails" duration-ms="97774" started-at="2019-03-24T09:03:11Z" finished-at="2019-03-24T09:04:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterUserDetails -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:stepDefinition.RegisterTest@77a57272]" name="tearDown" is-config="true" duration-ms="771" started-at="2019-03-23T07:15:00Z" finished-at="2019-03-23T07:15:01Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:stepDefinition.RegisterTest@77a57272]" name="tearDown" is-config="true" duration-ms="735" started-at="2019-03-24T09:05:21Z" finished-at="2019-03-24T09:05:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- stepDefinition.RegisterTest -->
       <class name="stepDefinition.LoginTest">
-        <test-method status="PASS" signature="goToLoginPage()[pri:4, instance:stepDefinition.LoginTest@7181ae3f]" name="goToLoginPage" duration-ms="8" started-at="2019-03-23T07:14:53Z" finished-at="2019-03-23T07:14:53Z">
+        <test-method status="PASS" signature="goToLoginPage()[pri:4, instance:stepDefinition.LoginTest@7181ae3f]" name="goToLoginPage" duration-ms="0" started-at="2019-03-24T09:04:49Z" finished-at="2019-03-24T09:04:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToLoginPage -->
-        <test-method status="PASS" signature="goToHomePage()[pri:5, instance:stepDefinition.LoginTest@7181ae3f]" name="goToHomePage" duration-ms="901" started-at="2019-03-23T07:14:53Z" finished-at="2019-03-23T07:14:54Z">
+        <test-method status="PASS" signature="goToHomePage()[pri:5, instance:stepDefinition.LoginTest@7181ae3f]" name="goToHomePage" duration-ms="895" started-at="2019-03-24T09:04:49Z" finished-at="2019-03-24T09:04:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToHomePage -->
-        <test-method status="PASS" signature="verifyLoginPageTitle()[pri:6, instance:stepDefinition.LoginTest@7181ae3f]" name="verifyLoginPageTitle" duration-ms="6" started-at="2019-03-23T07:14:55Z" finished-at="2019-03-23T07:14:55Z">
+        <test-method status="PASS" signature="verifyLoginPageTitle()[pri:6, instance:stepDefinition.LoginTest@7181ae3f]" name="verifyLoginPageTitle" duration-ms="15" started-at="2019-03-24T09:04:50Z" finished-at="2019-03-24T09:04:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitle -->
-        <test-method status="PASS" signature="loginUser()[pri:7, instance:stepDefinition.LoginTest@7181ae3f]" name="loginUser" duration-ms="4601" started-at="2019-03-23T07:14:55Z" finished-at="2019-03-23T07:15:00Z">
+        <test-method status="PASS" signature="loginUser()[pri:7, instance:stepDefinition.LoginTest@7181ae3f]" name="loginUser" duration-ms="29597" started-at="2019-03-24T09:04:51Z" finished-at="2019-03-24T09:05:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginUser -->
