@@ -20,7 +20,8 @@ public class RegisterTest extends BasePage {
 	public WebDriver driver;
 	public RegisterPage registerPage;
 	public ExcelUtility excelReader;
-	Logger log = Logger.getLogger(RegisterTest.class);
+	//Logger log = Logger.getLogger(RegisterTest.class);
+	Logger log = Logger.getLogger("devpinoyLogger");
 	
 	@BeforeSuite
 	@Parameters({"scenario", "sheet"})
@@ -32,11 +33,12 @@ public class RegisterTest extends BasePage {
 	}
 	
 	@Test(priority = 0)
-	public void verifyHomePageTitle() {
-		String title = registerPage.getHomePageTitle();
-		System.out.println("Home Page Title is: " +title);
-		Assert.assertEquals(title, "Welcome: Mercury Tours");
-		log.info("title matched!!!");
+	public void verifyHomePageTitle() {		
+			String title = registerPage.getHomePageTitle();
+			System.out.println("Home Page Title is: " +title);
+			Assert.assertEquals(title, "Welcome: Mercury Tours");
+			log.info("title matched!!!");
+		
 	}
 	
 	
